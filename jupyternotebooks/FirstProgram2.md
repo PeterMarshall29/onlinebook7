@@ -8,7 +8,6 @@ kernelspec:
   display_name: C++ 20
   language: c++
   name: cpp20
-  alias: cpp
 ---
 
 # First C++ program.
