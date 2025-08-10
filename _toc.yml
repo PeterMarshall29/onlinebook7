@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Programming Concepts
+    chapters:
+    - file: jupyternotebooks/CodingTheory1
+    - file: jupyternotebooks/CodingTheory2
+    - file: jupyternotebooks/CodingTheory3
+  - caption: Introduction toC++ Programming
+    chapters:
+    - file: jupyternotebooks/TestBed
+    - file: jupyternotebooks/FirstProgram
+    - file: jupyternotebooks/FirstProgram2
+    - file: jupyternotebooks/Input_and_Output
+    - file: jupyternotebooks/Variables_and_Constants
+    - file: jupyternotebooks/Data_Types
+    - file: jupyternotebooks/Introduction_to_Functions
+  - caption: C++ Programming in Visual Studio
+    chapters:
+    - file: jupyternotebooks/IntroductionToCPP_VSCode
+    - file: jupyternotebooks/Header_Files
