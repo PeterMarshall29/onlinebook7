@@ -93,36 +93,49 @@ or something other
 :label: ExerciseC2
 This code is incorrect. Alter the code so that it runs without error and prints your name.
 ```
-```{code-cell} cpp
+```{code-cell} c++
 :tags: [remove-output]
 include "iostreams"
 main(){
 cout << "my name is, \n"
 return "Peter";
 }
-```
-````{solution} ExerciseC2 
-:class: hint dropdown
-:label: SolutionC2
-```{code} cpp
 #include <iostream>
 int main()
 {
 	std :: cout << "Hello, World!\n";
 	return 0;
 }
+```
+````{solution} ExerciseC2 
+:class: hint dropdown
+:label: SolutionC2
+```{code} c++
+#include <iostream>
+int main()
+{
+	std :: cout << "Hello, World!\n";
+	return 0;
+}
+```
 ````
 
 
 ````{exercise} 
 :label: ExerciseC3
 This code is incorrect. Alter the code so that it runs without error and prints your name.
-```{code-cell} cpp
+```{code-cell} c++
 :tags: [remove-output]
 include "iostreams"
 main(){
 cout << "my name is, \n"
 return "Peter";
+}
+#include <iostream>
+int main()
+{
+	std :: cout << "Hello, World!\n";
+	return 0;
 }
 ```
 ````
@@ -131,7 +144,7 @@ return "Peter";
 :class: hint dropdown
 :label: SolutionC3
 
-```{code} cpp
+```{code} c++
 #include <iostream>
 int main()
 {
@@ -151,6 +164,12 @@ include "iostreams"
 main(){
 cout << "my name is, \n"
 return "Peter";
+}
+#include <iostream>
+int main()
+{
+	std :: cout << "Hello, World!\n";
+	return 0;
 }
 ````
 ````{solution} ExerciseC4
