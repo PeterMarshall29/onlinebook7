@@ -13,6 +13,10 @@ kernelspec:
 
 # First C++ program.
 
+
+Primordial <wiki:gravitational_waves> are hypothesized to arise from <wiki:cosmic_inflation>, a faster-than-light expansion just after the <wiki:big_bang>.
+
+
 Type the following code into the empty code window below.
 Please type the code exactly as shown. 
 TIP computers cannot correct your mistakes for you!! 
@@ -21,7 +25,7 @@ TIP computers cannot correct your mistakes for you!!
 ```{code-block} cpp
 :linenos: 
 :emphasize-lines: 4
-:label: CodeC1
+:name: CodeC1
 :caption: Hello World program
 
 #include <iostream>
@@ -34,35 +38,22 @@ int main()
 
 In {ref}`Code 1<CodeC1>` the highlighted statement is the code that the programmer actually wants implemented - everything else is ...
 
-:::{code-block} cpp
+```{code-cell} cpp
 :linenos: 
 :emphasize-lines: 4
-:label: CodeC2
+:name: CodeC2
 :caption: Hello World program
-
+:tags: [skip-execution]
 #include <iostream>
 int main()
 {
 	std :: cout << "Hello, World!\n";
 	return 0;
 }
-:::
+```
 
-````{code} cpp
-:linenos: 
-:emphasize-lines: 4
-:label: CodeC3
-:caption: Hello World program
 
-#include <iostream>
-int main()
-{
-	std :: cout << "Hello, World!\n";
-	return 0;
-}
-````
-
-In {ref}`Code 1<CodeC3>` the highlighted statement is the code that the programmer actually wants implemented - everything else is ...
+In {ref}`Code 1<CodeC2>` the highlighted statement is the code that the programmer actually wants implemented - everything else is ...
 
 
 ```{tip}
@@ -100,20 +91,19 @@ or something other
 
 
 `````{exercise-start} 
-:class: dropdown
 :label: ExerciseC2
 `````
 This code is incorrect. Alter the code so that it runs without error and prints your name.
-```{code-cell} cpp
+`````{code-block} cpp
 :tags: [remove-output]
 include "iostreams"
 main(){
 cout << "my name is, \n"
 return "Peter";
 }
-```
+`````
 ````{solution} ExerciseC2 
-:class: hint dropdown
+:class: hint 
 :label: SolutionC2
 ```{code} cpp
 #include <iostream>
@@ -126,6 +116,7 @@ int main()
 ````
 `````{exercise-end}
 `````
+
 ````{admonition} Exercise
 :class: dropdown tip
 Add or remove spaces anywhere in your code and run the code again. \
