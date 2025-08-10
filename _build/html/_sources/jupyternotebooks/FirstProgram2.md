@@ -102,8 +102,8 @@ cout << "my name is, \n"
 return "Peter";
 }
 `````
-````{solution} ExerciseC2 
-:class: hint 
+`````{solution} ExerciseC2 
+:class: hint dropdown
 :label: SolutionC2
 ```{code} cpp
 #include <iostream>
@@ -113,7 +113,7 @@ int main()
 	return 0;
 }
 ```
-````
+`````
 `````{exercise-end}
 `````
 
