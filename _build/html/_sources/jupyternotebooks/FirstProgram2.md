@@ -117,6 +117,37 @@ int main()
 `````{exercise-end}
 `````
 
+```{exercise-start} 
+:label: ExerciseC3
+```
+This code is incorrect. Alter the code so that it runs without error and prints your name.
+```{code-block} cpp
+:tags: [remove-output]
+include "iostreams"
+main(){
+cout << "my name is, \n"
+return "Peter";
+}
+```
+```{exercise-end}
+```
+
+````{solution} ExerciseC3 
+:class: hint dropdown
+:label: SolutionC3
+
+```{code} cpp
+#include <iostream>
+int main()
+{
+	std :: cout << "Hello, World!\n";
+	return 0;
+}
+```
+````
+
+
+
 ````{admonition} Exercise
 :class: dropdown tip
 Add or remove spaces anywhere in your code and run the code again. \
