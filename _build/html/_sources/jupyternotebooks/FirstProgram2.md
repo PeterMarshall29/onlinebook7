@@ -90,19 +90,19 @@ or something other
 ::::
 
 
-`````{exercise-start} 
+```{exercise} 
 :label: ExerciseC2
-`````
 This code is incorrect. Alter the code so that it runs without error and prints your name.
-`````{code-block} cpp
+```
+```{code-cell} cpp
 :tags: [remove-output]
 include "iostreams"
 main(){
 cout << "my name is, \n"
 return "Peter";
 }
-`````
-`````{solution} ExerciseC2 
+```
+````{solution} ExerciseC2 
 :class: hint dropdown
 :label: SolutionC2
 ```{code} cpp
@@ -112,16 +112,13 @@ int main()
 	std :: cout << "Hello, World!\n";
 	return 0;
 }
-```
-`````
-`````{exercise-end}
-`````
+````
 
-```{exercise-start} 
+
+````{exercise} 
 :label: ExerciseC3
-```
 This code is incorrect. Alter the code so that it runs without error and prints your name.
-```{code-block} cpp
+```{code-cell} cpp
 :tags: [remove-output]
 include "iostreams"
 main(){
@@ -129,8 +126,7 @@ cout << "my name is, \n"
 return "Peter";
 }
 ```
-```{exercise-end}
-```
+````
 
 ````{solution} ExerciseC3 
 :class: hint dropdown
@@ -146,6 +142,32 @@ int main()
 ```
 ````
 
+`````{exercise-start}
+:label: ExerciseC4
+`````
+This code is incorrect. Alter the code so that it runs without error and prints your name.
+````{code-cell} cpp
+:tags: [remove-output]
+include "iostreams"
+main(){
+cout << "my name is, \n"
+return "Peter";
+}
+````
+````{solution} ExerciseC4
+:class: hint dropdown
+:label: SolutionC4
+```{code} cpp
+#include <iostream>
+int main()
+{
+	std :: cout << "Hello, World!\n";
+	return 0;
+}
+```
+````
+`````{exercise-end}
+`````
 
 
 ````{admonition} Exercise
@@ -153,7 +175,14 @@ int main()
 Add or remove spaces anywhere in your code and run the code again. \
 Or try somthing else\
 or something other
-
+```{code-cell} cpp
+:tags: [remove-output]
+include "iostreams"
+main(){
+cout << "my name is, \n"
+return "Peter";
+}
+```
 ```{admonition} Solutions 
 :class: dropdown hint
 1. answer 1
